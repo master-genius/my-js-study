@@ -86,7 +86,7 @@ Object.prototype.\_\_proto\_\_指向的是null。
 
 #### 构造函数
 
-只有函数对象才可以用new关键字，使用new关键字会创建一个新的对象。但是只有函数对象才可以用new。
+只有函数对象才可以用new关键字，使用new关键字会创建一个新的对象。
 
 >function Fy(name, role, skill) {
 >
