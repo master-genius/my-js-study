@@ -72,7 +72,7 @@ Object.prototype.\_\_proto\_\_指向的是null。
 - Object由Function创建，所以Object.\_\_proto\_\_指向Function.prototype，类型是function。
 - Function.\_\_proto\_\_ === Function.prototype
 - Function.\_\_proto\_\_.\_\_proto\_\_ === Object.prototype
-- Object.prototype.__proto == null
+- Object.prototype.__proto === null
 
 
 
