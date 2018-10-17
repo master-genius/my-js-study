@@ -18,7 +18,7 @@
 >
 > var jn = {
 >
-> &emsp;&emsp;&emsp;&emsp;name : 'Wert'
+> &emsp;&emsp;name : 'Wert'
 >
 > };
 >
@@ -26,7 +26,7 @@
 >
 > function fn(x) {
 >
-> &emsp;&emsp;&emsp;&emsp;return x*x*x;
+> &emsp;&emsp;return x*x*x;
 >
 > }
 >
@@ -44,9 +44,9 @@ var mul = new Function('a', 'b', 'return a * b');
 
 console.log(
 
-&emsp;&emsp;&emsp;&emsp;mul.\_\_proto\_\_ === Function.prototype,  //true
+&emsp;&emsp;mul.\_\_proto\_\_ === Function.prototype,  //true
 
-&emsp;&emsp;&emsp;&emsp;mul.\_\_proto\_\_.\_\_proto\_\_.\_\_proto\_\_     //null
+&emsp;&emsp;mul.\_\_proto\_\_.\_\_proto\_\_.\_\_proto\_\_     //null
 
 );
 
@@ -119,4 +119,3 @@ Object.prototype.\_\_proto\_\_指向的是null。
 >new Fy操作创建了一个对象并让f引用，f是Fy的实例， 类型是object。而Fy就是f的构造函数。
 
 所有的对象都会从原型继承一个constructor属性，一个constructor必须是一个函数对象，所以子对象继承后的constructor一定要指向一个函数对象。在上面示例中，f.constructor指向Fy。
-
